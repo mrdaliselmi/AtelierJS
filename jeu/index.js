@@ -17,6 +17,7 @@ while(true){
     }
     let again=prompt(`The answer was ${x}\nwanna try again ? yes/no`)
     if (again=="no"){
+        window.location.href = "../index.html";
         break;
     }
 }
